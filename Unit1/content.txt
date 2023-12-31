@@ -1,0 +1,39 @@
+Ngôn ngữ HTML
+    HTML là ngôn ngữ đánh dấu siêu văn bản, nó bao gồm nhiều thẻ (tiếng Anh: tag) để đánh dấu nội dung. Nội dung được đánh dấu có thể được “style” bởi CSS.
+    HTML, CSS và JavaScript là 3 ngôn ngữ duy nhất trình duyệt web có thể hiểu được.
+    HTML được sử dụng với vai trò tạo ra phần khung cho trang web, nơi xác định đầy đủ các thành phần và nội dung của trang web.
+    CSS được sử dụng để hoàn thiện tính thẩm mỹ cho nội dung được đánh dấu bởi HTML.
+    JavaScript được sử dụng để bổ sung các tính năng mang tính tương tác cho trang web.
+    
+#Cấu trúc tiêu chuẩn của file HTML
+Gồm 4 thành phần:
+
+DOCTYPE
+Thẻ <html>
+Thẻ <head>
+Thẻ <body>.
+
+DOCTYPE khai báo cho trình duyệt hiểu về phiên bản HTML đang được sử dụng
+Thẻ <html> chứa toàn bộ nội dung trang web
+Thẻ <head> chứa các thẻ <meta>
+Thẻ <body> chứa nội dung hiển thị ra nội dung trình duyệt
+
+#Sử dụng các thẻ meta
+    Thẻ meta charset dùng để chỉ định bảng mã ký tự sử dụng cho trang web. Thẻ này cần được khai báo đầu tiên trong thẻ <head>.
+    Thẻ meta title dùng để khai báo tiêu đề trang web, tiêu đề này hiển thị trên tab trình duyệt & trong kết quả của các công cụ tìm kiếm
+    Thẻ meta viewport dùng để tối ưu hiển thị giao diện trang web trên nhiều thiết bị. Nếu thiếu thẻ này, trang web có thể hiển thị nhỏ hơn bình thường, bạn cần phải phóng to lên để dễ nhìn hơn.
+    Thẻ meta open graph dùng để cung cấp dữ liệu cho trình thu thập dữ liệu của Facebook, giúp trang web hiển thị đầy đủ thông tin & đẹp mắt hơn khi được chia sẻ lên Facebook.
+
+#Một số thẻ HTML thông dụng
+    Thẻ h1 sử dụng làm tiêu đề chính, thẻ h2 sử dụng làm tiêu đề phụ
+    Thẻ p sử dụng để chứa các đoạn văn bản
+    Thẻ b, i, u để in đậm, in nghiêng và gạch chân
+    Thẻ a tạo ra các liên kết có thể nhấn vào, sử dụng thuộc tính href để chứa liên kết
+    Thẻ img để hiển thị hình ảnh, liên kết tới hình ảnh được khai báo trong thuộc tính src
+    Thẻ ul, li để hiển thị danh sách không có số thứ tự
+    Thẻ ol, li để hiển thị danh sách có số thứ tự
+
+#Thuộc tính trong HTML
+    Thuộc tính có dạng key="value", được viết trong thẻ mở của thẻ HTML
+    Mỗi thẻ HTML có thể có các thuộc tính riêng của nó, thuộc tính riêng này có thể không hoạt động ở các thẻ HTML khác
+    Thuộc tính toàn cục (tiếng Anh: Global attributes) là các thuộc tính có thể sử dụng ở mọi thẻ HTML. Ví dụ: lang, hidden, title
