@@ -7,11 +7,10 @@ Ngôn ngữ HTML
     
 #Cấu trúc tiêu chuẩn của file HTML
 Gồm 4 thành phần:
-
 DOCTYPE
 Thẻ <html>
 Thẻ <head>
-Thẻ <body>.
+Thẻ <body>
 
 DOCTYPE khai báo cho trình duyệt hiểu về phiên bản HTML đang được sử dụng
 Thẻ <html> chứa toàn bộ nội dung trang web
