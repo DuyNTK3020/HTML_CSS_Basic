@@ -1,6 +1,19 @@
-Thẻ tiêu đề:
+Thẻ <h*>:
     Trong HTML có 6 thẻ tiêu đề, từ h1 - h6. Số 1 - 6 thể hiện cấp độ (tiếng Anh: Level) của thẻ. Thẻ <h1> có cấp độ cao nhất, thẻ <h6> có cấp độ thấp nhất.
     Sử dụng các thẻ h dựa trên ý nghĩa nội dung trang web. Tránh chỉ sử dụng thẻ h vì kích thước phông chữ của bản thiết kế.
     Đảm bảo sử dụng tối đa một thẻ <h1> trên mỗi trang đơn.
     Không nên bỏ qua các cấp thẻ tiêu đề. Nếu bạn có thẻ <h1>, thì cấp tiêu đề sau sẽ là <h2>, sau nữa là <h3>, … cho tới <h6>.
     Không cần phải sử dụng toàn bộ các thẻ h, việc sử dụng các thẻ h phụ thuộc vào dàn ý hoặc nội dung trang web. Thông thường, các thẻ càng gần <h6> càng ít được sử dụng.
+
+Thẻ <p>
+    Thẻ <p> được sử dụng để thể hiện một đoạn văn bản trên trang web.
+    Một đoạn văn không nhất thiết phải nhiều hơn một câu, có thể sử dụng thẻ <p> với các đoạn văn bản ngắn.
+    Mỗi thẻ <p> sẽ luôn nằm trên một dòng mới. Ngoài ra, trình duyệt sẽ tự động thêm khoảng lề trên và dưới để ngăn cách giữa các thẻ <p>.
+
+Thẻ <br/>
+    Thẻ ngắt dòng (tiếng Anh: Line Break element) trong HTML là <br />, được sử dụng để tạo ra một dòng mới trong một đoạn văn. Đây là một thẻ tự đóng.
+    Trong thực tế, thẻ <br> rất hữu ích để tạo điểm ngắt dòng cho một bài thơ hoặc một địa chỉ.
+    Trong HTML, nhiều khoảng trắng hoặc dấu ngắt dòng chỉ được coi là một khoảng trắng (một dấu cách).
+    Mỗi thẻ <p> là một đoạn văn độc lập. Không có tình huống một đoạn văn lại nằm trong một đoạn văn khác.
+    Luôn sử dụng thẻ <p> cho các đoạn văn bản để đảm bảo tính ngữ nghĩa và tối ưu khả năng truy cập.
+    Thẻ <br> chỉ sử dụng với mục đích ngắt dòng trong các đoạn văn, không sử dụng để tạo khoảng cách lề giữa các nội dung.
