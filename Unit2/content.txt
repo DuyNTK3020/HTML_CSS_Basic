@@ -17,3 +17,15 @@ Thẻ <br/>
     Mỗi thẻ <p> là một đoạn văn độc lập. Không có tình huống một đoạn văn lại nằm trong một đoạn văn khác.
     Luôn sử dụng thẻ <p> cho các đoạn văn bản để đảm bảo tính ngữ nghĩa và tối ưu khả năng truy cập.
     Thẻ <br> chỉ sử dụng với mục đích ngắt dòng trong các đoạn văn, không sử dụng để tạo khoảng cách lề giữa các nội dung.
+
+Thẻ <b> sử dụng cho nội dung muốn gây sự chú ý. Nội dung của nó được hiển thị dưới dạng chữ in đậm.
+
+Thẻ <strong> thể hiện sự quan trọng, nghiêm trọng, cấp bách, v.v.
+
+Thẻ <i> sử dụng cho các trường hợp viết nghiêng theo quy tắc chính tả như: tên một tác phẩm, trích dẫn một câu nói, v.v.
+
+Thẻ <em> thể hiện sự nhấn mạnh như: nhấn mạnh từ, nhấn mạnh trọng âm, v.v.
+
+Semantic (ngữ nghĩa) là một khái niệm rất quan trọng trong HTML. Nắm được ngữ nghĩa giúp bạn sử dụng HTML đúng hơn về ý nghĩa, giúp bạn phân biệt được trường hợp nào dùng thẻ HTML nào.
+HTML cung cấp các thẻ HTML có ngữ nghĩa để chúng ta sử dụng đúng mục đích, giúp nội dung trong HTML trở nên có ý nghĩa.
+Lý do chúng ta nên nắm chắc ngữ nghĩa trong HTML là: giúp các nhà phát triển dễ đọc hiểu code hơn, tối ưu cho SEO và khả năng truy cập.
