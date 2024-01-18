@@ -27,5 +27,10 @@ Thẻ <i> sử dụng cho các trường hợp viết nghiêng theo quy tắc ch
 Thẻ <em> thể hiện sự nhấn mạnh như: nhấn mạnh từ, nhấn mạnh trọng âm, v.v.
 
 Semantic (ngữ nghĩa) là một khái niệm rất quan trọng trong HTML. Nắm được ngữ nghĩa giúp bạn sử dụng HTML đúng hơn về ý nghĩa, giúp bạn phân biệt được trường hợp nào dùng thẻ HTML nào.
-HTML cung cấp các thẻ HTML có ngữ nghĩa để chúng ta sử dụng đúng mục đích, giúp nội dung trong HTML trở nên có ý nghĩa.
-Lý do chúng ta nên nắm chắc ngữ nghĩa trong HTML là: giúp các nhà phát triển dễ đọc hiểu code hơn, tối ưu cho SEO và khả năng truy cập.
+    HTML cung cấp các thẻ HTML có ngữ nghĩa để chúng ta sử dụng đúng mục đích, giúp nội dung trong HTML trở nên có ý nghĩa.
+    Lý do chúng ta nên nắm chắc ngữ nghĩa trong HTML là: giúp các nhà phát triển dễ đọc hiểu code hơn, tối ưu cho SEO và khả năng truy cập.
+
+Thẻ <ul> <ol> <li>
+    Tạo nhanh danh sách có nhiều mục ul>li*3, trong đó 3 là số lượng thẻ <li> muốn tạo. Áp dụng tương tự cho các trường hợp muốn tạo thẻ lồng nhau khác, ví dụ với danh sách <ol>.
+    Tạo nhanh danh sách với nhiều mục đi kèm nội dung có chứa số thứ tự ul>li*3{Item $}, trong đó $ đại diện cho kí tự số thứ tự.
+    Trong khóa học này có chương riêng về Emmet, vì vậy trong các bài học chỉ giới thiệu Emmet liên quan tới bài học đó.
