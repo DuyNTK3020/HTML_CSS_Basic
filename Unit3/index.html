@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <h1>Installation</h1>
+    <ul>
+      <li>
+        <a href="#meet-laravel">Meet Laravel</a>
+        <ul>
+          <!-- Why Laravel? -->
+          <li><a href="#why-laravel">Why Laravel?</a></li>
+        </ul>
+      </li>
+      <li>
+        <a href="#your-first-laravel-project">Your First Laravel Project</a>
+      </li>
+      <li>
+        <a href="#laravel-and-docker">Laravel & Docker</a>
+        <ul>
+          <li>
+            <a href="#getting-started-on-macos">Getting Started On macOS</a>
+          </li>
+          <li>
+            <a href="#getting-started-on-windows">Getting Started On Windows</a>
+          </li>
+          <li>
+            <a href="#getting-started-on-linux">Getting Started On Linux</a>
+          </li>
+          <li>
+            <a href="#choosing-your-sail-services"
+              >Choosing Your Sail Services</a
+            >
+          </li>
+        </ul>
+      </li>
+    </ul>
+
+    <!-- Meet Laravel -->
+    <h2 id="meet-laravel">Meet Laravel</h2>
+
+    <p>
+      Laravel is a web application framework with expressive, elegant syntax. A
+      web framework provides a structure and starting point for creating your
+      application, allowing you to focus on creating something amazing while we
+      sweat the details.
+    </p>
+
+    <p>
+      Laravel strives to provide an amazing developer experience while providing
+      powerful features such as thorough dependency injection, an expressive
+      database abstraction layer, queues and scheduled jobs, unit and
+      integration testing, and more.
+    </p>
+
+    <p>
+      Whether you are new to PHP web frameworks or have years of experience,
+      Laravel is a framework that can grow with you. We'll help you take your
+      first steps as a web developer or give you a boost as you take your
+      expertise to the next level. We can't wait to see what you build.
+    </p>
+
+    <!-- Why Laravel? -->
+    <h3 id="why-laravel">Why Laravel?</h3>
+
+    <p>
+      There are a variety of tools and frameworks available to you when building
+      a web application. However, we believe Laravel is the best choice for
+      building modern, full-stack web applications.
+    </p>
+
+    <h4>A Progressive Framework</h4>
+
+    <p>
+      We like to call Laravel a "progressive" framework. By that, we mean that
+      Laravel grows with you. If you're just taking your first steps into web
+      development, Laravel's vast library of documentation, guides, and video
+      tutorials will help you learn the ropes without becoming overwhelmed.
+    </p>
+
+    <p>
+      If you're a senior developer, Laravel gives you robust tools for
+      dependency injection, unit testing, queues, real-time events, and more.
+      Laravel is fine-tuned for building professional web applications and ready
+      to handle enterprise work loads.
+    </p>
+
+    <h4>A Scalable Framework</h4>
+    <p>
+      Laravel is incredibly scalable. Thanks to the scaling-friendly nature of
+      PHP and Laravel's built-in support for fast, distributed cache systems
+      like Redis, horizontal scaling with Laravel is a breeze. In fact, Laravel
+      applications have been easily scaled to handle hundreds of millions of
+      requests per month.
+    </p>
+
+    <p>
+      Need extreme scaling? Platforms like Laravel Vapor allow you to run your
+      Laravel application at nearly limitless scale on AWS's latest serverless
+      technology.
+    </p>
+
+    <h4>A Community Framework</h4>
+    <p>
+      Laravel combines the best packages in the PHP ecosystem to offer the most
+      robust and developer friendly framework available. In addition, thousands
+      of talented developers from around the world have contributed to the
+      framework. Who knows, maybe you'll even become a Laravel contributor.
+    </p>
+
+    <!-- Your First Laravel Project -->
+    <h2 id="your-first-laravel-project">Your First Laravel Project</h2>
+    <p>
+      Before creating your first Laravel project, you should ensure that your
+      local machine has PHP and Composer installed. If you are developing on
+      macOS, PHP and Composer can be installed via Homebrew. In addition, we
+      recommend installing Node and NPM.
+    </p>
+
+    <p>
+      Once you have started the Artisan development server, your application
+      will be accessible in your web browser at http://localhost:8000. Next,
+      you're ready to start taking your next steps into the Laravel ecosystem.
+      Of course, you may also want to configure a database.
+    </p>
+
+    <p>
+      If you would like a head start when developing your Laravel application,
+      consider using one of our starter kits. Laravel's starter kits provide
+      backend and frontend authentication scaffolding for your new Laravel
+      application.
+    </p>
+
+    <!-- Laravel & Docker -->
+    <h2 id="laravel-and-docker">Laravel & Docker</h2>
+
+    <p>
+      We want it to be as easy as possible to get started with Laravel
+      regardless of your preferred operating system. So, there are a variety of
+      options for developing and running a Laravel project on your local
+      machine. While you may wish to explore these options at a later time,
+      Laravel provides Sail, a built-in solution for running your Laravel
+      project using Docker.
+    </p>
+
+    <p>
+      Docker is a tool for running applications and services in small,
+      light-weight "containers" which do not interfere with your local machine's
+      installed software or configuration. This means you don't have to worry
+      about configuring or setting up complicated development tools such as web
+      servers and databases on your local machine. To get started, you only need
+      to install Docker Desktop.
+    </p>
+
+    <p>
+      Laravel Sail is a light-weight command-line interface for interacting with
+      Laravel's default Docker configuration. Sail provides a great starting
+      point for building a Laravel application using PHP, MySQL, and Redis
+      without requiring prior Docker experience.
+    </p>
+
+    <!-- Getting Started On macOS -->
+    <h3 id="getting-started-on-macos">Getting Started On macOS</h3>
+
+    <p>
+      If you're developing on a Mac and Docker Desktop is already installed, you
+      can use a simple terminal command to create a new Laravel project.
+    </p>
+
+    <p>
+      Of course, you can change "example-app" in this URL to anything you like -
+      just make sure the application name only contains alpha-numeric
+      characters, dashes, and underscores. The Laravel application's directory
+      will be created within the directory you execute the command from.
+    </p>
+
+    <p>
+      Sail installation may take several minutes while Sail's application
+      containers are built on your local machine.
+    </p>
+
+    <p>
+      Once the application's Docker containers have been started, you can access
+      the application in your web browser at: http://localhost.
+    </p>
+
+    <!-- Getting Started On Windows -->
+    <h3 id="getting-started-on-windows">Getting Started On Windows</h3>
+
+    <p>
+      Before we create a new Laravel application on your Windows machine, make
+      sure to install Docker Desktop. Next, you should ensure that Windows
+      Subsystem for Linux 2 (WSL2) is installed and enabled. WSL allows you to
+      run Linux binary executables natively on Windows 10. Information on how to
+      install and enable WSL2 can be found within Microsoft's developer
+      environment documentation.
+    </p>
+
+    <p>
+      Sail installation may take several minutes while Sail's application
+      containers are built on your local machine.
+    </p>
+
+    <!-- Getting Started On Linux -->
+    <h3 id="getting-started-on-linux">Getting Started On Linux</h3>
+    <p>
+      If you're developing on Linux and Docker Compose is already installed, you
+      can use a simple terminal command to create a new Laravel project.
+    </p>
+
+    <p>
+      Of course, you can change "example-app" in this URL to anything you like -
+      just make sure the application name only contains alpha-numeric
+      characters, dashes, and underscores. The Laravel application's directory
+      will be created within the directory you execute the command from.
+    </p>
+
+    <p>
+      Sail installation may take several minutes while Sail's application
+      containers are built on your local machine.
+    </p>
+
+    <!-- Choosing Your Sail Services -->
+    <h3 id="choosing-your-sail-services">Choosing Your Sail Services</h3>
+
+    <p>
+      When creating a new Laravel application via Sail, you may use the with
+      query string variable to choose which services should be configured in
+      your new application's docker-compose.yml file.
+    </p>
+
+    <p>
+      All of the configuration files for the Laravel framework are stored in the
+      config directory. Each option is documented, so feel free to look through
+      the files and get familiar with the options available to you.
+    </p>
+
+    <p>
+      Laravel needs almost no additional configuration out of the box. You are
+      free to get started developing! However, you may wish to review the
+      config/app.php file and its documentation. It contains several options
+      such as timezone and locale that you may wish to change according to your
+      application.
+    </p>
+
+    <!-- tel -->
+    <a href="tel:+81123456789">CALL NOW</a>
+
+    <!-- mail to -->
+    <a href="mailto:nguyenvana@domain.com?subject=Request Support&cc=nguyenvanb@domain.com">SEND EMAIL</a>
+
+    <!-- dowload -->
+    <a href="https://htmlcss.fullstack.edu.vn/assets/f8_icon.png" download="f8-logo-download">Tải Logo F8</a>
+
+  </body>
+</html>

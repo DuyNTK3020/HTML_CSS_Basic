@@ -1,0 +1,23 @@
+Thẻ <a> (anchor - điểm neo, neo một liên kết) được dùng để tạo ra một liên kết cho các loại nội dung như văn bản, hình ảnh, v.v.
+Thuộc tính href (hypertext reference) trong thẻ <a> được dùng để khai báo URL mà trang web sẽ được chuyển đến.
+Nếu không khai báo href thì thẻ <a> sẽ không phải là một liên kết.
+Nếu để trống href thì thẻ <a> sẽ tham chiếu vào trang hiện tại.
+Nếu sử dụng href="#" khi nhấn vào thẻ <a> sẽ lên đầu trang.
+Có 2 giá trị được sử dụng phổ biến là _self (mở liên kết từ trang hiện tại - mặc định), _blank (mở liên kết trong tab mới).
+File HTML có thể tạo với trình soạn thảo cơ bản có sẵn trên máy tính như Notepad, và có thể chạy trực tiếp file HTML trên trình duyệt.
+Trường hợp sử dụng target="_blank" hiệu quả nhất đó là khi tránh làm mất dữ liệu của người dùng hoặc mở liên kết khác tên miền.
+Để tối ưu hơn về hiệu năng và bảo mật, hãy thêm rel="noopener" vào toàn bộ các thẻ a có target="_blank".
+Ngoài việc được dùng để liên kết tới một URL thì thẻ <a> cũng có thể liên kết tới một số điện thoại, một địa chỉ email. Sử dụng 2 phương thức trong thuộc tính href để làm điều này:
+mailto để liên kết tới một email. Ví dụ: mailto:example@gmail.com
+tel để liên kết tới một số điện thoại. Ví dụ: tel:0999999999 hoặc tel:+0999999999
+Sử dụng thẻ <a> với mailto giúp bạn có thể mở cửa sổ soạn email với các thông tin được điền sẵn như email nhận, subject, cc, bcc, v.v.
+Khi chưa có URL để thêm vào menu, có thể tạm thời sử dụng href="#!" để giữ chỗ (tránh nhấn vào trang bị tải lại với href="" hoặc bị nhảy lên đầu trang với href="#").
+Theo mặc định, khi nội dung trang web vượt quá chiều cao của thẻ html, body thì sẽ xuất hiện thanh cuộn.
+Hash (hash mark - dấu thăng #) trong URL trỏ trình duyệt tới một vị trí cụ thể trong trang web. Thông thường, bạn sẽ thấy # được sử dụng ở phần sau của một URL.
+ID (identifier - định danh) là một thuộc tính để tạo định danh duy nhất cho một phần tử HTML trong cùng một trang (theo tiêu chuẩn của W3C).
+Không sử được đồng thời nhiều hash (#) trong một URL. Nếu cố tình đưa nhiều hash (nhiều dấu #) vào URL thì chỉ dấu # đầu tiên là có ý nghĩa.
+Sẽ không có điều gì xảy ra khi nhấn vào một liên kết có hash tham chiếu tới một id không tồn tại.
+Không cần sử dụng thẻ h trong danh sách tóm tắt nội dung bài viết, vì trong nội dung đã sử dụng đầy đủ các thẻ h, đã thể hiện rõ ràng cấu trúc phân cấp của nội dung.
+Thẻ <a> cũng có thể liên kết tới nhiều dạng tài nguyên khác như hình ảnh, video, pdf, v.v.
+Phần lớn người dùng đã quen với việc một liên kết sẽ có gạch chân. Vì vậy, không nên gạch chân nội dung khi không phải là một liên kết và ngược lại.
+Nội dung trong liên kết nên ngắn gọn, súc tích, thể hiện rõ ý nghĩa của liên kết. Trình đọc màn hình sẽ đọc to nội dung trong liên kết, không nên chỉ đặt liên kết trong các từ như tại đây, đây, v.v.
