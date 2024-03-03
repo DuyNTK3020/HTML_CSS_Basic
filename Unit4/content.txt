@@ -1,0 +1,43 @@
+Thẻ <img> (image - hình ảnh) được dùng để hiển thị hình ảnh trên trang web, thẻ có thuộc tính src và alt là bắt buộc.
+
+Thuộc tính src (source - nguồn) được dùng để xác định đường dẫn (URL, path) của hình ảnh sẽ được hiển thị.
+
+Thẻ <img> không thực sự chèn hình ảnh vào trang web. Thẻ <img> tạo ra một không gian để hiển thị hình ảnh trong trang web, hình ảnh sẽ được tải từ đường dẫn trong src.
+
+Thuộc tính width và height dùng để chỉ định kích thước hiển thị của hình ảnh. Nếu không được chỉ định, hình ảnh sẽ hiển thị với kích thước gốc.
+
+Tránh không đặt width và height cho hình ảnh vì có thể gây ra hiện tượng nhảy/giật trên trang web.
+
+Tránh đặt width, height sai tỉ lệ ảnh gốc vì có thể làm ảnh hiển thị bị méo, lỗi.
+
+Tránh đặt width, height lớn hơn kích thước gốc của ảnh vì có thể làm ảnh hiển thị bị vỡ.
+
+Thuộc tính alt (alternative - thay thế) dùng để chỉ định văn bản thay thế trong trường hợp hình ảnh không hiển thị.
+
+Những tình huống phổ biến văn bản thay thế được sử dụng:
+    Hình ảnh bị lỗi (bị xóa, lỗi khi tải ảnh, v.v)
+    Công cụ tìm kiếm thu thập dữ liệu trên trang
+    Người dùng sử dụng trình đọc màn hình
+
+Những lợi ích tiêu biểu khi sử dụng thuộc tính alt:
+    Người dùng vẫn nhận được thông tin dù ảnh lỗi
+    Công cụ tìm kiếm hiểu hình ảnh nói về điều gì
+    Trình đọc màn hình đọc nội dung của thuộc tính alt
+
+Nội dung cho alt chỉ cần ngắn gọn, súc tích, thể hiện được hình ảnh đó nói về điều gì.
+
+Hình ảnh chỉ mang tính trang trí thì để alt="" (lưu ý là không bỏ thuộc tính alt vì các trình phân tích có thể coi là bạn đã quên thêm thuộc tính này).
+
+Khi hình ảnh có kích thước lớn được hiển thị với kích thước nhỏ thì trình duyệt vẫn sẽ phải tải toàn bộ ảnh có kích thước lớn. Điều này làm cho chậm trang web một cách không cần thiết và lãng phí băng thông.
+
+Nên để kích thước hình ảnh gốc x 2 lần kích thước hiển thị của nó. Điều này giúp hình ảnh hiển thị tốt trên cả màn hình Retina.
+
+Khi đã tối ưu về kích thước ảnh, nếu sử dụng định dạng PNG bạn vẫn có thể tiếp tục sử dụng tinypng.com để tối ưu dung lượng hình ảnh.
+
+Không nên sử dụng các tệp tài nguyên từ URL của các trang không tin tưởng. Khi trang web đó ngừng hoạt động hoặc tài nguyên bị xóa thì có thể làm ảnh hưởng tới trang của bạn.
+
+Thẻ <figure> được sử dụng để thể hiện hình ảnh trong nội dung tài liệu như hình minh họa, biểu đồ, khối code, v.v. Đây là một thẻ có từ phiên bản HTML5.
+
+Thẻ <img> dùng để hiển thị một hình ảnh, trong khi <figure> dùng để bổ sung ngữ nghĩa cho một hình ảnh. Vì vậy, 2 thẻ này không thể thay thế cho nhau.
+
+Thẻ <figcaption> dùng để bổ sung chú thích cho nội dung được thể hiện bằng thẻ <figure>. Ví dụ như chú thích cho một hình ảnh, video, biểu đồ, v.v.
